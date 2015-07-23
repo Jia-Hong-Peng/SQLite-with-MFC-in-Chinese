@@ -27,7 +27,7 @@ SQLite3  是用 C 語言編寫的開源數據庫，可移植性好，容易非�
 
 將sqlite3.c，sqlite3.h兩個文件複製到這個專案目錄下，在項目中將這兩個文件加到對應的Header和Source裡，直接build，然後在Debug下就可以得到sqlite3.lib。
 
-我Build的自取： https://github.com/jhpeng/sqlite
+我Build的sqlite.lib專案自取： https://github.com/jhpeng/sqlite
 
 ## 使用 SQLite_Wrapper ##
 - 從 [SQLite3官網](http://www.sqlite.org/download.html) 下載的 SourceCode 取出SQLite3.h，及自己編譯好的 SQLite.lib
