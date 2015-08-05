@@ -22,7 +22,8 @@ SQLite3  是用 C 語言編寫的開源數據庫，可移植性好，容易非�
 ![](http://i.imgur.com/gHtuTHX.png)
 
 
-網路上寫取消“預編譯頭”，不過我沒取消也能build
+取消“預編譯頭”
+![](http://i.imgur.com/4HxlxyO.png)
 
 
 將sqlite3.c，sqlite3.h兩個文件複製到這個專案目錄下，在項目中將這兩個文件加到對應的Header和Source裡，直接build，然後在Debug下就可以得到sqlite3.lib。
